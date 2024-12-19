@@ -1,0 +1,19 @@
+{
+  "network": "optimistic_sepolia",
+  "chainId": 11155420,
+  "proxies": {
+    "MockPositionManager": "0x1a14eFAB6b50D9d701512207b7b83387F2F12dd3",
+    "BTBToken": "0x4C2A13eFCD62D9FE2c775c8c768Ee59bAD3eac67",
+    "BTBFinanceFull": "0x9F97beE160A60Bb8ddc59152c9bE04c7865BD37a"
+  },
+  "implementations": {
+    "MockPositionManager": "0xEFBd6f522c095e4B18102083fc6eDBB5420b3751",
+    "BTBToken": "0x5C0ecd60e573D7790d12b792650c162B38B74F4c",
+    "BTBFinanceFull": "0x3D50Aa0C307bB4d437b19BC0C5F32b06F867304F"
+  },
+  "verifiedContracts": {
+    "MockPositionManager": "https://sepolia-optimistic.etherscan.io/address/0xEFBd6f522c095e4B18102083fc6eDBB5420b3751#code"
+  },
+  "deploymentDate": "2024-12-19",
+  "notes": "Initial deployment of upgradeable contracts on Optimistic Sepolia"
+}
